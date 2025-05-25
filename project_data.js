@@ -1,5 +1,14 @@
 export const project_data = [
     {
+        title: "URL Shortener",
+        image: "url-shortener.png",
+        description:
+            "The URL Shortener is a full-stack web application that allows users to shorten long URLs into compact links. Registered users can manage their links, track total clicks, and see detailed analytics including IP addresses and geolocation of visitors. The system also supports QR code generation for each short link, making it easy to share offline or across platforms. Key features include user authentication, click tracking, and a mobile-friendly interface for smooth access across devices.",
+        badges: ["React", "Express.js", "MongoDB", "Tailwind CSS"],
+        github: "https://github.com/theavnishkumar/url-Shortener",
+        live: "https://url.ihavetech.com",
+    },
+    {
         title: "Online Auction System",
         image: "online-auction.png",
         description:
@@ -8,25 +17,6 @@ export const project_data = [
         github:
             "https://github.com/theavnishkumar/online-auction-system",
         live: "https://auction.kipa.me",
-    },
-    {
-        title: "Personal Finance Management App",
-        image: "pfms.png",
-        description:
-            "Personal Financial Management App is a user-friendly application built with React, Tailwind CSS, Express, and MongoDB. It allows users to create accounts, log in securely, and manage their expenses by adding, deleting, and modifying entries. Users can filter expenses by date, month, or year, and visualize their spending with a pie chart, making financial tracking simple and intuitive.",
-        badges: ["React js", "Tailwind css", "Express js", "MongoDB"],
-        github:
-            "https://github.com/theavnishkumar/personal-finance-management-app",
-        live: "https://money.kipa.me",
-    },
-    {
-        title: "URL Shortener",
-        image: "url-shortener.png",
-        description:
-            "The URL Shortener Project is a user-friendly web application built on Express.js, EJS, and MongoDB. It simplifies lengthy URLs into shareable, shortened versions, while offering user authentication for signup and login. Users can manage their shortened URLs with ease, and MongoDB integration ensures secure storage of data.",
-        badges: ["EJS", "Express js", "MongoDB"],
-        github: "https://github.com/theavnishkumar/url-Shortener",
-        live: "https://url.ihavetech.com",
     },
     {
         title: "Library Management System",
