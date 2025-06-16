@@ -5,21 +5,26 @@ import Provider from "@/components/Provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Avnish kumar - Full Stack Web Developer",
+  title:
+    "Avnish Kumar – Full Stack Web Developer | MERN & JavaScript Developer",
   description:
-    "I'm Avnish Kumar, a passionate and dedicated 4th-year Computer Science student at Gyan Ganga Institute of Technology and Sciences, Jabalpur. Avnish Kumar is a Full Stack web developer from Buxar, Bihar.",
+    "Avnish Kumar is a Full Stack Web Developer from Buxar, Bihar, and a 2024 Computer Science graduate from Gyan Ganga Institute of Technology and Sciences, Jabalpur. He builds fast, clean, and responsive web apps using React, Node.js, Express, MongoDB, NestJS, and TypeScript.",
   keywords: [
     "Avnish",
     "Avnish Kumar",
     "theavnishkumar",
-    "the avnish kumar",
-    "Avnish Kumar jabalpur",
-    "Avnish Kumar buxar",
     "Avnish Kumar web developer",
     "Avnish Kumar full stack developer",
-    "Avnish Kumar ggits",
-    "Avnish buxar",
-    "Avnish jabalpur",
+    "Avnish Kumar MERN developer",
+    "Avnish Kumar NestJS",
+    "Avnish Kumar JavaScript",
+    "Avnish Kumar Jabalpur",
+    "Avnish Kumar Buxar",
+    "Avnish Kumar portfolio",
+    "Full Stack Developer India",
+    "MERN Stack Developer Bihar",
+    "JavaScript Developer India",
+    "React Node Developer",
   ],
   authors: [
     { name: "Avnish kumar" },
@@ -27,7 +32,7 @@ export const metadata = {
   ],
   creator: "Avnish Kumar",
   publisher: "Avnish Kumar",
-  category: "technology",
+  category: "Technology",
   metadataBase: new URL("https://theavnishkumar.in"),
   formatDetection: {
     email: true,
@@ -35,9 +40,9 @@ export const metadata = {
     telephone: false,
   },
   openGraph: {
-    title: "Avnish Kumar",
+    title: "Avnish Kumar – Full Stack Developer | React, Node, MongoDB",
     description:
-      "I'm Avnish Kumar, a passionate and dedicated 4th-year Computer Science student at Gyan Ganga Institute of Technology and Sciences, Jabalpur.",
+      "Explore the portfolio of Avnish Kumar, a Full Stack Developer skilled in MERN stack, TypeScript, Java, and more. Based in Bihar, India – building modern web apps with React, Node.js, and MongoDB.",
     url: "https://theavnsihkumar.in",
     siteName: "Avnish Kumar",
     images: [
@@ -68,13 +73,13 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Avnish Kumar",
+    title: "Avnish Kumar – Full Stack Developer | React & Node.js",
     description:
-      "I'm Avnish Kumar, a passionate and dedicated 4th-year Computer Science student at Gyan Ganga Institute of Technology and Sciences, Jabalpur.",
+      "Avnish Kumar is a Full Stack Web Developer from Bihar, India. Skilled in JavaScript, React, Node.js, MongoDB, NestJS, and more. Visit portfolio to know more.",
     siteId: "",
     creator: "@theavnishkumar",
     creatorId: "@theavnishkumar",
-    images: ["/avnishkumar/avnish.jpg"],
+    images: ["/avnishkumar/avnishkumar.jpg"],
   },
   verification: {
     google: "google",
