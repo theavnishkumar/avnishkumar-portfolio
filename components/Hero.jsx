@@ -15,9 +15,7 @@ const Hero = () => {
     window.open(resumeUrl, "_blank");
   };
   return (
-    <main
-      className="min-h-[calc(100svh-5.03rem)] md:flex-row flex flex-col-reverse justify-center items-center gap-4"
-    >
+    <main className="min-h-[calc(100svh-5.03rem)] md:flex-row flex flex-col-reverse justify-center items-center gap-4">
       {/* Left Section */}
       <section className=" max-w-3xl min-h-xl p-4 flex flex-col gap-3 m-4">
         <p className="lg:text-3xl text-2xl font-medium">👋 Hi, I am</p>
@@ -28,7 +26,17 @@ const Hero = () => {
           I am a Full Stack Developer
         </h2>
         <p className="lg:text-2xl text-lg text-gray-600">
-          I am a skilled Full Stack Developer proficient in JavaScript, React, Node.js, Express.js, and MongoDB. With a keen eye for detail and a passion for crafting seamless user experiences, I specialize in utilizing Tailwind CSS to create visually stunning and responsive web applications. My goal is to deliver high-quality solutions that not only meet client needs but also elevate their online presence and drive growth.
+          I&apos;m a passionate full stack developer with experience in building
+          modern web applications. I work mainly with JavaScript, TypeScript,
+          React, Node.js, Express.js, MongoDB, and NestJS.
+        </p>
+
+        <p className="lg:text-2xl text-lg text-gray-600">
+          I also have a good understanding of Java and use Tailwind CSS to build
+          clean and responsive user interfaces. I enjoy turning ideas into
+          real-world web solutions that are fast, secure, and easy to use. I pay
+          attention to both the frontend and backend, making sure everything
+          works smoothly together.
         </p>
 
         <section className="flex flex-col gap-6">
@@ -74,13 +82,20 @@ const Hero = () => {
           {/* Buttons */}
           <section className="flex gap-4">
             <Link href="mailto:hi@theavnishkumar.in">
-              <button className="flex items-center px-3 py-2 bg-emerald-700 hover:bg-emerald-800  rounded-md text-white outline-none focus:ring-1 shadow-lg transform active:scale-y-90 transition-transform" aria-label="Contact Button">
+              <button
+                className="flex items-center px-3 py-2 bg-emerald-700 hover:bg-emerald-800  rounded-md text-white outline-none focus:ring-1 shadow-lg transform active:scale-y-90 transition-transform"
+                aria-label="Contact Button"
+              >
                 <IoIosMail size={24} />
                 <span className="ml-1.5 md:text-lg">Contact</span>
               </button>
             </Link>
 
-            <button className="flex items-center px-3 py-2 bg-red-700 hover:bg-red-800 rounded-md text-white outline-none focus:ring-1 shadow-lg transform active:scale-y-90 transition-transform" onClick={handleDownloadResume} aria-label="Resume Download Button">
+            <button
+              className="flex items-center px-3 py-2 bg-red-700 hover:bg-red-800 rounded-md text-white outline-none focus:ring-1 shadow-lg transform active:scale-y-90 transition-transform"
+              onClick={handleDownloadResume}
+              aria-label="Resume Download Button"
+            >
               <IoDocumentText size={22} />
               <span className="ml-1.5 md:text-lg">Resume</span>
             </button>
