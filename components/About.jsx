@@ -109,19 +109,21 @@ const About = () => {
             </p>
           </section>
           <p className="lg:text-xl text-lg text-gray-700 font-normal">
-            Hello! I&apos;m Avnish Kumar, a passionate and dedicated 4th-year
-            Computer Science student at Gyan Ganga Institute of Technology and
-            Sciences, Jabalpur.
+            Hello! I&apos;m Avnish Kumar, a passionate and dedicated Full Stack
+            Web Developer. I&apos;ve completed my B.Tech in Computer Science
+            from Gyan Ganga Institute of Technology and Sciences, Jabalpur.
           </p>
           <p className="lg:text-xl text-lg text-gray-700 font-normal">
-            I specialize in turning code into meaningful and impactful
-            applications. Proficient in JavaScript, React, Node, and Express.
-            Databases like MongoDB and MySQL are my playground, where I organize
-            data with precision.Throughout my time in academia, I&apos;ve had
-            the opportunity to engage in several captivating projects. From
-            crafting dynamic web applications to navigating complex backend
-            logic, each endeavor has been instrumental in honing my skills and
-            nurturing my passion for innovation.
+            I enjoy building web applications that are both useful and
+            user-friendly. I&apos;m skilled in JavaScript, TypeScript, React,
+            Node.js, Express.js, and NestJS.
+          </p>
+
+          <p className="lg:text-xl text-lg text-gray-700 font-normal">
+            I worked on multiple real-world projects
+            that helped me understand how frontend and backend come together.
+            From designing responsive interfaces to solving backend challenges,
+            each project helped me grow as a developer.
           </p>
           <section className="flex max-md:flex-col gap-6 md:items-center">
             {/* Social Media Icons */}
@@ -166,14 +168,14 @@ const About = () => {
             {/* Buttons */}
             <section className="flex gap-4">
               <Link href="mailto:hi@theavnishkumar.in">
-              <button
-                className="flex items-center px-3 py-2 bg-emerald-700 hover:bg-emerald-800  rounded-md text-white outline-none focus:ring-1 shadow-lg transform active:scale-y-90 transition-transform"
-                aria-label="Contact Button"
+                <button
+                  className="flex items-center px-3 py-2 bg-emerald-700 hover:bg-emerald-800  rounded-md text-white outline-none focus:ring-1 shadow-lg transform active:scale-y-90 transition-transform"
+                  aria-label="Contact Button"
                 >
-                <IoIosMail size={24} />
-                <span className="ml-1.5 md:text-lg">Contact</span>
-              </button>
-                </Link>
+                  <IoIosMail size={24} />
+                  <span className="ml-1.5 md:text-lg">Contact</span>
+                </button>
+              </Link>
             </section>
           </section>
         </section>
