@@ -94,6 +94,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <meta name="wot-verification" content="e1ab46df463264c68114" />
       <body
         className={`${inter.className} bg-small bg-fixed bg-cover bg-center h-screen`}
       >
