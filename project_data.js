@@ -4,19 +4,19 @@ export const project_data = [
         image: "url-shortener.png",
         description:
             "The URL Shortener is a full-stack web application that allows users to shorten long URLs into compact links. Registered users can manage their links, track total clicks, and see detailed analytics including IP addresses and geolocation of visitors. The system also supports QR code generation for each short link, making it easy to share offline or across platforms. Key features include user authentication, click tracking, and a mobile-friendly interface for smooth access across devices.",
-        badges: ["React", "Express.js", "MongoDB", "Tailwind CSS"],
+        badges: ["React", "Express.js", "MongoDB", "Tailwind CSS", "Tanstack"],
         github: "https://github.com/theavnishkumar/url-Shortener",
         live: "https://url.ihavetech.com",
     },
     {
         title: "Online Auction System",
-        image: "online-auction.png",
+        image: "online-auction-system.png",
         description:
-            "The Online Auction System is a web application where users can bid on items in real-time. Sellers can list their items with details like name, description, price, and photos. Buyers can place bids on these items until the auction ends. The highest bid at the end of the auction wins the item. The system includes features like user registration, bidding history, and countdown timers for each auction.",
-        badges: ["React js", "Tailwind css", "Express js", "MongoDB", "Redux"],
+            "The Online Auction System is a full-stack web application that allows users to participate in real-time auctions. Sellers can list items with details like title, description, starting price, and images. Buyers can place competitive bids until the auction timer runs out. When the time ends, the highest bidder wins the item. The platform supports secure user registration and login, live bidding updates, bidding history tracking, and countdown timers for each auction. It delivers a smooth and engaging auction experience.",
+        badges: ["React js", "Express js", "MongoDB", "Redux", "Tanstack"],
         github:
             "https://github.com/theavnishkumar/online-auction-system",
-        live: "https://auction.kipa.me",
+        live: "https://auction.ihavetech.com",
     },
     {
         title: "Library Management System",
