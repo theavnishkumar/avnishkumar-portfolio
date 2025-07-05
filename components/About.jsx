@@ -1,9 +1,9 @@
 import { FaInstagram, FaReact } from "react-icons/fa";
 import { RiJavascriptFill, RiLinkedinFill } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa";
-import { FaHtml5 } from "react-icons/fa";
+import { BiLogoTypescript } from "react-icons/bi";
 import { IoLogoCss3 } from "react-icons/io5";
-import { SiMysql } from "react-icons/si";
+import { SiMysql, SiNestjs } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { PiGithubLogoFill } from "react-icons/pi";
 import { FaXTwitter } from "react-icons/fa6";
@@ -62,8 +62,8 @@ const About = () => {
               Next JS
             </section>
             <section className="flex justify-center items-center flex-col">
-              <FaHtml5 size={50} className=" text-orange-500" />
-              HTML
+              <BiLogoTypescript size={50} className=" text-blue-500" />
+              Typescript
             </section>
             <section className="flex justify-center items-center flex-col">
               <IoLogoCss3 size={50} className=" text-blue-500" />
@@ -92,6 +92,10 @@ const About = () => {
                 </svg>
               </section>
               Express JS
+            </section>
+            <section className="flex justify-center items-center flex-col">
+              <SiNestjs size={45} className=" text-red-600" />
+              NestJS
             </section>
             <section className="flex justify-center items-center flex-col">
               <SiMysql size={45} className=" text-cyan-500" />
