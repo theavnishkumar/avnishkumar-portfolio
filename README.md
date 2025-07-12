@@ -21,7 +21,7 @@ Welcome to the repository for my personal portfolio website, built using Next.js
 
 This is my personal portfolio website where I showcase my projects, skills, and experience. The website is designed to be fully responsive and includes features such as project showcases, a contact form, and more.
 
-You can view the live portfolio at: [theavnishkumar.in](https://theavnishkumar.in)
+You can view the live portfolio at: [https://theavnishkumar.in](https://theavnishkumar.in)
 
 ## Features
 
