@@ -119,7 +119,7 @@ Follow the prompts to deploy your application.
 
 ## Contact
 
-If you have any questions or feedback, feel free to contact me via the [contact form](https://theavnishkumar.in/#contact) on my portfolio website or connect with me through my social profiles.
+If you have any questions or feedback, feel free to contact me via the [contact form](https://theavnishkumar.in/#contact) on my portfolio website or connect with me through my social profiles or you can mail me at hi@theavnishkumar.in.
 
 ## License
 
