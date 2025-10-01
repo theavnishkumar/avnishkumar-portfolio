@@ -12,10 +12,11 @@ export const EmailTemplate = ({ messageData, name, email }) => (
         }}
       >
         {/* <h4 style={{ color: "#6c757d" }}>Name: {name}</h4> */}
-        <p style={{ color: "#6c757d", display: "flex" }}>
-          <strong>{name},</strong>{" "}
-          <p style={{ padding: "8px" }}>{messageData}</p>
-        </p>
+            <p style={{ color: "#6c757d", display: "flex" }}>
+            <strong>{name},</strong>{" "}
+            <span style={{ padding: "8px" }}>{messageData}</span>
+          </p>
+
         <h4 style={{ color: "#6c757d" }}>Email: {email}</h4>
         {/* <a
           href="https://theavnishkumar.in"
