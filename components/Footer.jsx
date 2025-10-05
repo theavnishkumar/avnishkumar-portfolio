@@ -78,10 +78,10 @@ const Footer = () => {
     >
       <section className="w-full lg:p-4 p-2 flex flex-col lg:flex-row gap-8">
         {/* Credit Section */}
-        <section className="p-2 w-full flex flex-col items-center">
+        <section className="p-2 w-full flex flex-col items-center text-gray-800 dark:text-gray-200">
           <span className="font-semibold">Hometown</span>
-          <section className="p-2 flex flex-col items-center w-fit gap-2 text-gray-800">
-            <span className="flex gap-1 items-center">
+          <section className="p-2 flex flex-col items-center w-fit gap-2">
+            <span className="flex gap-1 items-center ">
               <FaLocationDot />
               <address>Buxar, Bihar, India</address>
             </span>
@@ -95,9 +95,9 @@ const Footer = () => {
         </section>
 
         {/* Social Media */}
-        <section className="p-2 w-full flex flex-col items-center">
+        <section className="p-2 w-full flex flex-col items-center text-gray-800 dark:text-gray-200">
           <span className="font-semibold">Social Links</span>
-          <section className="p-2 flex flex-wrap w-4/5 justify-center gap-3 text-gray-800">
+          <section className="p-2 flex flex-wrap w-4/5 justify-center gap-3">
             {social.map((e) => (
               <span key={e.id}>
                 <Link
@@ -113,9 +113,9 @@ const Footer = () => {
         </section>
 
         {/* Credit Section */}
-        <section className="p-2 w-full flex flex-col items-center max-lg:hidden">
+        <section className="p-2 w-full flex flex-col items-center max-lg:hidden text-gray-800 dark:text-gray-200">
           <span className="font-semibold">Images/ Icons Credits</span>
-          <section className="p-2 flex flex-wrap w-4/5 justify-center gap-3 text-gray-800">
+          <section className="p-2 flex flex-wrap w-4/5 justify-center gap-3">
             {credit.map((e) => (
               <span key={e.id}>
                 <Link
@@ -131,10 +131,10 @@ const Footer = () => {
           </section>
         </section>
       </section>
-      <section className="p-2 text-center">
+      <section className="p-2 text-center text-gray-800 dark:text-gray-200">
         <p>
           &copy; {currentYear}{" "}
-          <span className="text-black font-semibold underline">
+          <span className="text-black dark:text-white font-semibold underline">
             Avnish Kumar
           </span>
           . All rights reserved.

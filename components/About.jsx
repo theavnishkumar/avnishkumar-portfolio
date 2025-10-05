@@ -54,7 +54,7 @@ const About = React.memo(function About() {
 
       <section className="flex flex-col-reverse lg:flex-row lg:p-6 p-4 gap-6 mt-6">
         {/* left Section */}
-        <section className="w-full p-2 rounded-xl py-6 lg:py-0.5 shadow-sm flex  flex-col max-md:gap-6 card lg:p-4">
+        <section className="w-full p-2 rounded-xl py-6 lg:py-0.5 shadow-sm flex  flex-col max-md:gap-6 card lg:p-4 dark:bg-gray-800">
           <section className="flex items-center gap-4 h-1/5 ">
             <hr className="h-1 w-16 bg-gray-600 rounded-full" />
             <p className="text-xl lg:text-2xl font-medium">
@@ -82,25 +82,25 @@ const About = React.memo(function About() {
         </section>
 
         {/* Right Section */}
-        <section className="w-full p-3 flex flex-col justify-start gap-4 text-xl rounded-xl py-6 shadow-sm lg:p-6 card">
+        <section className="w-full p-3 flex flex-col justify-start gap-4 text-xl rounded-xl py-6 shadow-sm lg:p-6 card dark:bg-gray-800">
           <section className="flex items-center gap-4 ">
             <hr className="h-1 w-16 bg-gray-700 rounded-full" />
             <p className=" font-medium text-xl lg:text-2xl">
               &lt;More about Me &nbsp;/&gt;
             </p>
           </section>
-          <p className="lg:text-xl text-lg text-gray-700 font-normal">
+          <p className="lg:text-xl text-lg text-gray-700 dark:text-gray-300 font-normal">
             Hello! I&apos;m Avnish Kumar, a passionate and dedicated Full Stack
             Web Developer. I&apos;ve completed my B.Tech in Computer Science
             from Gyan Ganga Institute of Technology and Sciences, Jabalpur.
           </p>
-          <p className="lg:text-xl text-lg text-gray-700 font-normal">
+          <p className="lg:text-xl text-lg text-gray-700 dark:text-gray-300 font-normal">
             I enjoy building web applications that are both useful and
             user-friendly. I&apos;m skilled in JavaScript, TypeScript, React,
             Node.js, Express.js, and NestJS.
           </p>
 
-          <p className="lg:text-xl text-lg text-gray-700 font-normal">
+          <p className="lg:text-xl text-lg text-gray-700 dark:text-gray-300 font-normal">
             I worked on multiple real-world projects
             that helped me understand how frontend and backend come together.
             From designing responsive interfaces to solving backend challenges,

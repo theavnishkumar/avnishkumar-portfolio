@@ -20,7 +20,7 @@ const Projects = () => {
       <section className=" flex justify-center items-center flex-col p-2 max-lg:gap-2">
         {project_data.map((e, index) => (
           <section
-            className="card shadow-lg rounded-xl flex lg:flex-row flex-col  gap-4 md:p-4 md:m-4 p-2 m-2 max-w-md sm:max-w-xl md:max-w-2xl lg:max-w-fit xl:w-5/6"
+            className="card shadow-lg rounded-xl flex lg:flex-row flex-col  gap-4 md:p-4 md:m-4 p-2 m-2 max-w-md sm:max-w-xl md:max-w-2xl lg:max-w-fit xl:w-5/6 dark:bg-gray-800"
             key={index}
           >
             {/* Image Section */}
@@ -47,14 +47,14 @@ const Projects = () => {
                 {e.badges.map((badge, index) => (
                   <span
                     key={index}
-                    className="bg-green-100 text-green-800 text-xs lg:text-sm font-medium me-2 px-2.5 py-0.5 rounded min-w-fit"
+                    className="bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300 text-xs lg:text-sm font-medium me-2 px-2.5 py-0.5 rounded min-w-fit"
                   >
                     {badge}
                   </span>
                 ))}
               </section>
               {/* Project Description */}
-              <p className=" lg:text-lg text-gray-700 lg:p-2">
+              <p className=" lg:text-lg text-gray-700 dark:text-gray-300 lg:p-2">
                 {e.description}
               </p>
               {/* Project Buttons */}
@@ -68,7 +68,7 @@ const Projects = () => {
                   className="flex flex-col items-center"
                 >
                   <PiGithubLogoFill className="bg-white transform hover:-translate-y-1.5 w-11 h-11 rounded-xl duration-500 text-black  hover:bg-black p-1.5 hover:text-white" />
-                  <span className="text-gray-700 text-sm pt-1.5 flex items-center">
+                  <span className="text-gray-700 dark:text-gray-300 text-sm pt-1.5 flex items-center">
                     Source Code <FaLink className="ml-2" />
                   </span>
                 </a>
@@ -81,7 +81,7 @@ const Projects = () => {
                   className="flex flex-col items-center"
                 >
                   <CgWebsite className="bg-white transform hover:-translate-y-1.5 w-11 h-11 rounded-xl duration-500 text-green-600  hover:bg-green-700 p-1.5 hover:text-white" />
-                  <span className="text-gray-700 text-sm pt-1.5 flex items-center">
+                  <span className="text-gray-700 dark:text-gray-300 text-sm pt-1.5 flex items-center">
                     Live Project <FaExternalLinkAlt className="ml-2" />
                   </span>
                 </a>
