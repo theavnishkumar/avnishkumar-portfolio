@@ -104,6 +104,7 @@ const Footer = () => {
                   href={e.link}
                   className="flex gap-1 justify-center"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   {e.name}&nbsp;{e.icon}
                 </Link>

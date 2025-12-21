@@ -95,7 +95,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${inter.className} bg-small bg-fixed bg-cover bg-center h-screen`}
+        className={`${inter.className} bg-small bg-fixed bg-cover bg-center min-h-screen`}
       >
         <Provider>{children}</Provider>
       </body>

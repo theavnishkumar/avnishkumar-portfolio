@@ -46,3 +46,9 @@ html {
   border-radius: 1px;
   /* Make scrollbar thumb curved */
 }
+
+@media (max-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+}

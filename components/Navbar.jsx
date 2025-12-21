@@ -13,7 +13,7 @@ const Navbar = () => {
       <section className=" hidden md:flex justify-end items-center p-2">
         <ul className="flex gap-8 max-lg:gap-4 max-lg:text-sm text-gray-700 tracking-wider uppercase font-semibold">
           <li className="cursor-pointer hover:text-gray-950 hover:scale-105 hover:transition-all">
-            <a href="#" aria-label="Goto Home Section">
+            <a href="/#" aria-label="Goto Home Section">
               Home
             </a>
           </li>
