@@ -7,21 +7,19 @@ export async function POST(req) {
     const json = await req.json();
     const { name, email, message } = json;
     try {
-        const data = await resend.batch.send([{
+        const data = await resend.emails.send({
             from: `${name} <onboarding@resend.dev>`,
             to: ['hi@theavnishkumar.in'],
-            reply_to: [`${email}`],
+            reply_to: email,
             subject: `New message from ${name}`,
-            react: EmailTemplate({ messageData: message, name: name, email: email }),
-        },
-        {
+            react: EmailTemplate({ messageData: message, name, email }),
+        });
+        resend.emails.send({
             from: `Avnish Kumar <hi@theavnishkumar.in>`,
-            to: [`${email}`],
+             to: [email],
             subject: `Reply from Avnish Kumar`,
-            // html: `Dear ${name},<br><br>Thank you for reaching out to us. This is an automated response to let you know that we have received your email. We appreciate your inquiry and will get back to you as soon as possible.<br><br>Best Regards,<br>Avnish Kumar<br>`,
-            react: EmailTemplate2({ name: name}),
-        }]
-        );
+            react: EmailTemplate2({ name}),
+        });
 
         return Response.json(data);
     } catch (error) {
