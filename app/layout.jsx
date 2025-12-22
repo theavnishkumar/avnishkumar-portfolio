@@ -43,7 +43,7 @@ export const metadata = {
     title: "Avnish Kumar – Full Stack Developer | React, Node, MongoDB",
     description:
       "Explore the portfolio of Avnish Kumar, a Full Stack Developer skilled in MERN stack, TypeScript, Java, and more. Based in Bihar, India – building modern web apps with React, Node.js, and MongoDB.",
-    url: "https://theavnsihkumar.in",
+    url: "https://theavnishkumar.in",
     siteName: "Avnish Kumar",
     images: [
       {

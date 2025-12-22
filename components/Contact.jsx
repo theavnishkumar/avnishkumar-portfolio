@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import "../app/globals.css";
 import { useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 

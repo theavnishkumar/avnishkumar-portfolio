@@ -1,5 +1,4 @@
 import Image from "next/image";
-import "../app/globals.css";
 import { PiGithubLogoFill } from "react-icons/pi";
 import { CgWebsite } from "react-icons/cg";
 import { FaLink, FaExternalLinkAlt } from "react-icons/fa";

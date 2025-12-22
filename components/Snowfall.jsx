@@ -6,7 +6,7 @@ export default function SnowfallClient() {
   return (
     <Snowfall
       color="white"
-      snowflakeCount={200}
+      snowflakeCount={100}
       style={{
         position: "fixed",
         width: "100vw",

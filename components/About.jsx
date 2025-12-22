@@ -8,7 +8,6 @@ import { SiMongodb } from "react-icons/si";
 import { PiGithubLogoFill } from "react-icons/pi";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
-import "../app/globals.css";
 import Link from "next/link";
 
 import React from "react";

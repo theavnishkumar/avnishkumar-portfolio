@@ -2,12 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+html {
+  scroll-padding-top: 80px;
   scroll-behavior: smooth;
 }
 
-html {
-  scroll-padding-top: 80px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .bg-small {
