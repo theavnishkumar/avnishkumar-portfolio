@@ -1,88 +1,205 @@
 import * as React from "react";
 
 export const EmailTemplate = ({ messageData, name, email }) => (
-  <section style={{ backgroundColor: "#f8f9fa", padding: "20px" }}>
-    <section style={{ maxWidth: "600px", margin: "0 auto" }}>
-      <section
-        style={{
-          background: "#fff",
-          border: "1px solid #dedede",
-          padding: "20px",
-          textAlign: "left",
-        }}
-      >
-        {/* <h4 style={{ color: "#6c757d" }}>Name: {name}</h4> */}
-            <p style={{ color: "#6c757d", display: "flex" }}>
-            <strong>{name},</strong>{" "}
-            <span style={{ padding: "8px" }}>{messageData}</span>
-          </p>
-
-        <h4 style={{ color: "#6c757d" }}>Email: {email}</h4>
-        {/* <a
-          href="https://theavnishkumar.in"
+  <table
+    width="100%"
+    cellPadding="0"
+    cellSpacing="0"
+    style={{
+      padding: "30px 10px",
+      fontFamily: "Arial, Helvetica, sans-serif",
+    }}
+  >
+    <tr>
+      <td align="center">
+        <table
+          width="600"
+          cellPadding="0"
+          cellSpacing="0"
           style={{
-            display: "inline-block",
-            color: "#fff",
-            backgroundColor: "#007bff",
-            padding: "10px 20px",
-            textDecoration: "none",
-            borderRadius: "3px",
+            backgroundColor: "#ffffff",
+            borderRadius: "8px",
+            border: "1px solid #e5e7eb",
           }}
         >
-          Visit Portfolio
-        </a> */}
-        {/* <p style={{ fontSize: "0.875rem", color: "#6c757d" }}>
-          Thank you for your time,
-        </p>
-        <p style={{ fontSize: "0.875rem", color: "#6c757d" }}>Avnish Kumar</p> */}
-      </section>
-      <p style={{ textAlign: "center", color: "#6c757d" }}>
-        © 2024 Avnish Kumar. All rights reserved.
-      </p>
-    </section>
-  </section>
+
+          <tr>
+            <td
+              style={{
+                backgroundColor: "#075985",
+                height: "6px",
+                borderRadius: "8px 8px 0 0",
+              }}
+            />
+          </tr>
+
+
+          <tr>
+            <td style={{ padding: "24px 24px 10px 24px" }}>
+              <h3
+                style={{
+                  margin: "0",
+                  color: "#111827",
+                  fontWeight: "normal",
+                }}
+              >
+                New message received
+              </h3>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td style={{ padding: "16px 24px" }}>
+              <table
+                width="100%"
+                cellPadding="0"
+                cellSpacing="0"
+                style={{
+                  backgroundColor: "#f9fafb",
+                  border: "1px solid #e5e7eb",
+                  borderRadius: "6px",
+                }}
+              >
+                <tr>
+                  <td style={{ padding: "16px", color: "#374151" }}>
+                    <p style={{ margin: "0 0 8px 0", fontSize: "14px" }}>
+                      <strong>{name}</strong> wrote:
+                    </p>
+
+                    <p
+                      style={{
+                        margin: "0",
+                        lineHeight: "1.6",
+                        fontSize: "14px",
+                        color: "#374151",
+                      }}
+                    >
+                      {messageData}
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <tr>
+            <td style={{ padding: "0 24px 24px 24px" }}>
+              <table width="100%" cellPadding="0" cellSpacing="0">
+                <tr>
+                  <td
+                    style={{
+                      fontSize: "14px",
+                      color: "#6b7280",
+                    }}
+                  >
+                    <strong>Email:</strong> {email}
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          {/* Footer */}
+          <tr>
+            <td
+              style={{
+                padding: "16px",
+                textAlign: "center",
+                fontSize: "12px",
+                color: "#9ca3af",
+                borderTop: "1px solid #e5e7eb",
+              }}
+            >
+              © 2025 Avnish Kumar. All rights reserved.
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
 );
 
 export const EmailTemplate2 = ({ name }) => (
-  <section style={{ backgroundColor: "#f8f9fa", padding: "20px" }}>
-    <section style={{ maxWidth: "600px", margin: "0 auto" }}>
-      <section
-        style={{
-          background: "#fff",
-          border: "1px solid #dedede",
-          padding: "20px",
-          textAlign: "left",
-        }}
-      >
-        <p style={{ color: "#6c757d" }}>
-          {`Dear ${name},`}
-          <br />
-          <br />
-          {`Thank you for reaching out to us. This is an automated response to let you know that we have received your email. We appreciate your inquiry and will get back to you as soon as possible.`}
-          <br />
-          <br />
-          {`Best Regards,`}
-          <br />
-          {`Avnish Kumar`}
-          <br />
-        </p>
-        <a
-          href="https://theavnishkumar.in"
+  <table
+    width="100%"
+    cellPadding="0"
+    cellSpacing="0"
+    style={{
+      padding: "20px",
+      fontFamily: "Arial, Helvetica, sans-serif",
+    }}
+  >
+    <tr>
+      <td align="center">
+        <table
+          width="600"
+          cellPadding="0"
+          cellSpacing="0"
           style={{
-            display: "inline-block",
-            color: "#fff",
-            backgroundColor: "#007bff",
-            padding: "10px 20px",
-            textDecoration: "none",
-            borderRadius: "3px",
+            backgroundColor: "#ffffff",
+            border: "1px solid #e0e0e0",
+            borderRadius: "8px",
           }}
         >
-          Visit Portfolio
-        </a>
-      </section>
-      <p style={{ textAlign: "center", color: "#6c757d" }}>
-        © 2024 Avnish Kumar. All rights reserved.
-      </p>
-    </section>
-  </section>
+  
+          <tr>
+            <td
+              style={{
+                padding: "20px",
+                borderBottom: "1px solid #e0e0e0",
+              }}
+            >
+              <h3
+                style={{
+                  margin: "0",
+                  color: "#075985",
+                  fontWeight: "normal",
+                }}
+              >
+                We’ve received your message
+              </h3>
+            </td>
+          </tr>
+
+          <tr>
+            <td style={{ padding: "20px", color: "#333333" }}>
+              <p style={{ margin: "0 0 14px 0" }}>
+                Dear {name},
+              </p>
+
+              <p style={{ margin: "0 0 14px 0", lineHeight: "1.6" }}>
+                Thank you for reaching out. This is just a quick note to let you
+                know that your message has been received safely.
+              </p>
+
+              <p style={{ margin: "0 0 14px 0", lineHeight: "1.6" }}>
+                I truly appreciate you taking the time to write. I will review
+                your message and get back to you as soon as possible.
+              </p>
+
+              <p style={{ margin: "20px 0 0 0" }}>
+                Warm regards,<br />
+                Avnish Kumar
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td
+              style={{
+                padding: "15px",
+                textAlign: "center",
+                fontSize: "12px",
+                color: "#777777",
+                borderTop: "1px solid #e0e0e0",
+              }}
+            >
+              © 2025 Avnish Kumar. All rights reserved.
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
 );
