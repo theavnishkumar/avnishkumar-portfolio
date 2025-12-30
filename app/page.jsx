@@ -5,12 +5,10 @@ import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import "./globals.css";
-import SnowfallClient from "@/components/Snowfall";
 
 export default function Home() {
   return (
     <>
-    <SnowfallClient/>
       <main className="max-[320px]:hidden">
         <Navbar />
         <Hero />
